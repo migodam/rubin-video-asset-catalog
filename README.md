@@ -1,14 +1,14 @@
 # Rubin长视频素材总览与台本策划入口
 
-更新：2026-10-10T02:56:18+08:00（Asia/Singapore）。此目录用于依据现有素材规划五篇Rubin科普内容。
+更新：2026-10-10T06:20:43+08:00（Asia/Singapore）。此目录用于依据现有素材规划五篇Rubin科普内容。
 
-现有67项自建模型，其中33项原理模型；777张原生4K静图；57组镜头、114条纯画面/标注两版4K30fps静默影片；78个独立讲解点。57组源镜头合计642秒，两版完整软件解码共38,520帧通过。
+现有67项自建模型，其中33项原理模型；779张原生4K静图；57组镜头、114条纯画面/标注两版4K30fps静默影片；78个独立讲解点。57组源镜头合计642秒，两版完整软件解码共38,520帧通过。
 
 网页版GPT先读 [GPT_HANDOFF.md](https://raw.githubusercontent.com/migodam/rubin-video-asset-catalog/main/GPT_HANDOFF.md)，再按需读 [镜头目录](https://raw.githubusercontent.com/migodam/rubin-video-asset-catalog/main/SHOTS.md)、[78个讲解点](https://raw.githubusercontent.com/migodam/rubin-video-asset-catalog/main/EXPLANATIONS.md)、[67个模型](https://raw.githubusercontent.com/migodam/rubin-video-asset-catalog/main/ASSETS.md) 和 [完整机器可读目录](https://raw.githubusercontent.com/migodam/rubin-video-asset-catalog/main/data/catalog.json)。
 
 公开入口提供轻量预览与目录。原始Blender、GLB、4K静图与电影位于约10.8GB的本地完整交付包；以下相对素材路径用于识别现有素材，不代表公开下载地址。
 
-![自建素材预览](review/delivery-preview.jpg)
+![自建素材预览](previews/room/hero.jpg)
 
 ## 五篇主题覆盖
 
@@ -21,6 +21,10 @@
 | Spectrum-6 SPX / CPO | 10 | packet pipeline/SerDes/CPO/微环/laser/RX/3Dpackage/多plane |
 
 同一模型和镜头可在多篇中复用；跨篇关联数量不可相加。
+
+## 五款tray细化更新
+
+[NVLink、LPX、MGX Ethernet、SN6800与SN6810的新旧对照](TRAY_REFINEMENT.md)。对应开盖主图、板级近景与相关镜头已替换。LPX机架、机房与C2C讲解同步采用官方2U/16LPU配置。原10.8GB完整包保留，最新模型与影片由本地细化补丁包提供。
 
 ## 素材层级
 
@@ -70,6 +74,7 @@
 - 56的线圈会局部遮挡光点；57波形是归一化示例，不能当成量产实测曲线。
 - 无独立正式SOCAMM2电影；SOCAMM2可用资产socamm2及07/09板级镜头与压接近景讲解。
 - 全部57组源时间轴已实际采样；114片完整软件解码通过。完整连续视觉播放和用户审美批准未获得。
+- Groq LPX已按用户要求采用2026-10-10核查的NVIDIA LPX专文与Figure 2：16×2U tray、每tray16LPU、两个FEL+DRAM模块，整柜256LPU。POD总览页仍有32×8的不同数字；旧模型保留为历史版本，当前模型采用专文配置。
 
 ## 目录与预览
 

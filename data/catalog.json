@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updated_at": "2026-10-10T02:56:18+08:00",
+  "updated_at": "2026-10-10T06:20:43+08:00",
   "purpose": "Rubin long-video script planning from existing assets",
   "counts": {
     "owned_assets": 67,
@@ -8,7 +8,7 @@
     "explanation_points": 78,
     "clip_groups": 57,
     "native_4k_movies": 114,
-    "native_4k_stills": 777,
+    "native_4k_stills": 779,
     "main_lod_glbs": 201,
     "bare_die_glbs": 8,
     "source_timeline_seconds": 642,
@@ -883,7 +883,7 @@
       "group": "rack",
       "representation": "owned_schematic",
       "geometry_basis": "image",
-      "components": 2896,
+      "components": 1520,
       "original_local_files": {
         "blend": "models/rack-lpx.blend",
         "lods": [
@@ -1253,7 +1253,7 @@
       "group": "tray",
       "representation": "owned_schematic",
       "geometry_basis": "image",
-      "components": 701,
+      "components": 902,
       "original_local_files": {
         "blend": "models/tray-nvlink.blend",
         "lods": [
@@ -1269,7 +1269,36 @@
         "original_local_file": "previews/tray-nvlink/hero.png",
         "processing": "resize_and_jpeg_encoding_only"
       },
-      "detail_previews": [],
+      "detail_previews": [
+        {
+          "path": "previews/tray-nvlink/service-detail.jpg",
+          "width": 1280,
+          "height": 720,
+          "original_local_file": "previews/tray-nvlink/service-detail.png",
+          "processing": "resize_and_jpeg_encoding_only"
+        },
+        {
+          "path": "previews/tray-nvlink/pcb-detail.jpg",
+          "width": 1280,
+          "height": 720,
+          "original_local_file": "previews/tray-nvlink/pcb-detail.png",
+          "processing": "resize_and_jpeg_encoding_only"
+        },
+        {
+          "path": "previews/tray-nvlink/thermal-detail.jpg",
+          "width": 1280,
+          "height": 720,
+          "original_local_file": "previews/tray-nvlink/thermal-detail.png",
+          "processing": "resize_and_jpeg_encoding_only"
+        },
+        {
+          "path": "previews/tray-nvlink/rear-connector-detail.jpg",
+          "width": 1280,
+          "height": 720,
+          "original_local_file": "previews/tray-nvlink/rear-connector-detail.png",
+          "processing": "resize_and_jpeg_encoding_only"
+        }
+      ],
       "article_ids": [
         "lpx",
         "nvl72",
@@ -1435,7 +1464,7 @@
       "group": "tray",
       "representation": "owned_schematic",
       "geometry_basis": "image",
-      "components": 1348,
+      "components": 2291,
       "original_local_files": {
         "blend": "models/tray-lpx.blend",
         "lods": [
@@ -1471,6 +1500,27 @@
           "width": 1280,
           "height": 720,
           "original_local_file": "previews/tray-lpx/pcb-detail.png",
+          "processing": "resize_and_jpeg_encoding_only"
+        },
+        {
+          "path": "previews/tray-lpx/thermal-detail.jpg",
+          "width": 1280,
+          "height": 720,
+          "original_local_file": "previews/tray-lpx/thermal-detail.png",
+          "processing": "resize_and_jpeg_encoding_only"
+        },
+        {
+          "path": "previews/tray-lpx/rear-connector-detail.jpg",
+          "width": 1280,
+          "height": 720,
+          "original_local_file": "previews/tray-lpx/rear-connector-detail.png",
+          "processing": "resize_and_jpeg_encoding_only"
+        },
+        {
+          "path": "previews/tray-lpx/lpu-underside-detail.jpg",
+          "width": 1280,
+          "height": 720,
+          "original_local_file": "previews/tray-lpx/lpu-underside-detail.png",
           "processing": "resize_and_jpeg_encoding_only"
         }
       ],
@@ -1525,6 +1575,11 @@
           "id": "nvidia-lpx",
           "title": "Inside NVIDIA Groq 3 LPX",
           "url": "https://developer.nvidia.com/blog/inside-nvidia-groq-3-lpx-the-low-latency-inference-accelerator-for-the-nvidia-vera-rubin-platform/"
+        },
+        {
+          "id": "nvidia-platform",
+          "title": "Inside the NVIDIA Vera Rubin platform: six new chips",
+          "url": "https://developer.nvidia.com/blog/inside-the-nvidia-rubin-platform-six-new-chips-one-ai-supercomputer/"
         }
       ]
     },
@@ -1620,7 +1675,7 @@
       "group": "tray",
       "representation": "owned_schematic",
       "geometry_basis": "image",
-      "components": 1463,
+      "components": 1625,
       "original_local_files": {
         "blend": "models/tray-etl.blend",
         "lods": [
@@ -1636,7 +1691,36 @@
         "original_local_file": "previews/tray-etl/hero.png",
         "processing": "resize_and_jpeg_encoding_only"
       },
-      "detail_previews": [],
+      "detail_previews": [
+        {
+          "path": "previews/tray-etl/service-detail.jpg",
+          "width": 1280,
+          "height": 720,
+          "original_local_file": "previews/tray-etl/service-detail.png",
+          "processing": "resize_and_jpeg_encoding_only"
+        },
+        {
+          "path": "previews/tray-etl/pcb-detail.jpg",
+          "width": 1280,
+          "height": 720,
+          "original_local_file": "previews/tray-etl/pcb-detail.png",
+          "processing": "resize_and_jpeg_encoding_only"
+        },
+        {
+          "path": "previews/tray-etl/thermal-detail.jpg",
+          "width": 1280,
+          "height": 720,
+          "original_local_file": "previews/tray-etl/thermal-detail.png",
+          "processing": "resize_and_jpeg_encoding_only"
+        },
+        {
+          "path": "previews/tray-etl/rear-connector-detail.jpg",
+          "width": 1280,
+          "height": 720,
+          "original_local_file": "previews/tray-etl/rear-connector-detail.png",
+          "processing": "resize_and_jpeg_encoding_only"
+        }
+      ],
       "article_ids": [
         "lpx",
         "nvl72",
@@ -1684,6 +1768,11 @@
           "url": "https://www.nvidia.com/en-us/networking/ethernet-switching/"
         },
         {
+          "id": "nvidia-platform",
+          "title": "Inside the NVIDIA Vera Rubin platform: six new chips",
+          "url": "https://developer.nvidia.com/blog/inside-the-nvidia-rubin-platform-six-new-chips-one-ai-supercomputer/"
+        },
+        {
           "id": "nvidia-pod",
           "title": "NVIDIA Vera Rubin POD: seven chips and five rack-scale systems",
           "url": "https://developer.nvidia.com/blog/nvidia-vera-rubin-pod-seven-chips-five-rack-scale-systems-one-ai-supercomputer/"
@@ -1696,7 +1785,7 @@
       "group": "tray",
       "representation": "owned_schematic",
       "geometry_basis": "image",
-      "components": 7703,
+      "components": 7968,
       "original_local_files": {
         "blend": "models/switch-sn6800.blend",
         "lods": [
@@ -1712,7 +1801,36 @@
         "original_local_file": "previews/switch-sn6800/hero.png",
         "processing": "resize_and_jpeg_encoding_only"
       },
-      "detail_previews": [],
+      "detail_previews": [
+        {
+          "path": "previews/switch-sn6800/service-detail.jpg",
+          "width": 1280,
+          "height": 720,
+          "original_local_file": "previews/switch-sn6800/service-detail.png",
+          "processing": "resize_and_jpeg_encoding_only"
+        },
+        {
+          "path": "previews/switch-sn6800/pcb-detail.jpg",
+          "width": 1280,
+          "height": 720,
+          "original_local_file": "previews/switch-sn6800/pcb-detail.png",
+          "processing": "resize_and_jpeg_encoding_only"
+        },
+        {
+          "path": "previews/switch-sn6800/thermal-detail.jpg",
+          "width": 1280,
+          "height": 720,
+          "original_local_file": "previews/switch-sn6800/thermal-detail.png",
+          "processing": "resize_and_jpeg_encoding_only"
+        },
+        {
+          "path": "previews/switch-sn6800/rear-connector-detail.jpg",
+          "width": 1280,
+          "height": 720,
+          "original_local_file": "previews/switch-sn6800/rear-connector-detail.png",
+          "processing": "resize_and_jpeg_encoding_only"
+        }
+      ],
       "article_ids": [
         "lpx",
         "nvl72",
@@ -1786,7 +1904,7 @@
       "group": "tray",
       "representation": "owned_schematic",
       "geometry_basis": "image",
-      "components": 2356,
+      "components": 2534,
       "original_local_files": {
         "blend": "models/switch-sn6810.blend",
         "lods": [
@@ -1802,7 +1920,36 @@
         "original_local_file": "previews/switch-sn6810/hero.png",
         "processing": "resize_and_jpeg_encoding_only"
       },
-      "detail_previews": [],
+      "detail_previews": [
+        {
+          "path": "previews/switch-sn6810/service-detail.jpg",
+          "width": 1280,
+          "height": 720,
+          "original_local_file": "previews/switch-sn6810/service-detail.png",
+          "processing": "resize_and_jpeg_encoding_only"
+        },
+        {
+          "path": "previews/switch-sn6810/pcb-detail.jpg",
+          "width": 1280,
+          "height": 720,
+          "original_local_file": "previews/switch-sn6810/pcb-detail.png",
+          "processing": "resize_and_jpeg_encoding_only"
+        },
+        {
+          "path": "previews/switch-sn6810/thermal-detail.jpg",
+          "width": 1280,
+          "height": 720,
+          "original_local_file": "previews/switch-sn6810/thermal-detail.png",
+          "processing": "resize_and_jpeg_encoding_only"
+        },
+        {
+          "path": "previews/switch-sn6810/rear-connector-detail.jpg",
+          "width": 1280,
+          "height": 720,
+          "original_local_file": "previews/switch-sn6810/rear-connector-detail.png",
+          "processing": "resize_and_jpeg_encoding_only"
+        }
+      ],
       "article_ids": [
         "lpx",
         "nvl72",
@@ -2784,7 +2931,7 @@
       "group": "board",
       "representation": "owned_schematic",
       "geometry_basis": "schematic",
-      "components": 462,
+      "components": 571,
       "original_local_files": {
         "blend": "models/board-nvlink.blend",
         "lods": [
@@ -2800,7 +2947,29 @@
         "original_local_file": "previews/board-nvlink/hero.png",
         "processing": "resize_and_jpeg_encoding_only"
       },
-      "detail_previews": [],
+      "detail_previews": [
+        {
+          "path": "previews/board-nvlink/service-detail.jpg",
+          "width": 1280,
+          "height": 720,
+          "original_local_file": "previews/board-nvlink/service-detail.png",
+          "processing": "resize_and_jpeg_encoding_only"
+        },
+        {
+          "path": "previews/board-nvlink/pcb-detail.jpg",
+          "width": 1280,
+          "height": 720,
+          "original_local_file": "previews/board-nvlink/pcb-detail.png",
+          "processing": "resize_and_jpeg_encoding_only"
+        },
+        {
+          "path": "previews/board-nvlink/rear-connector-detail.jpg",
+          "width": 1280,
+          "height": 720,
+          "original_local_file": "previews/board-nvlink/rear-connector-detail.png",
+          "processing": "resize_and_jpeg_encoding_only"
+        }
+      ],
       "article_ids": [
         "lpx",
         "nvl72",
@@ -2932,7 +3101,7 @@
       "group": "board",
       "representation": "owned_schematic",
       "geometry_basis": "schematic",
-      "components": 965,
+      "components": 1603,
       "original_local_files": {
         "blend": "models/board-lpx.blend",
         "lods": [
@@ -2948,7 +3117,36 @@
         "original_local_file": "previews/board-lpx/hero.png",
         "processing": "resize_and_jpeg_encoding_only"
       },
-      "detail_previews": [],
+      "detail_previews": [
+        {
+          "path": "previews/board-lpx/service-detail.jpg",
+          "width": 1280,
+          "height": 720,
+          "original_local_file": "previews/board-lpx/service-detail.png",
+          "processing": "resize_and_jpeg_encoding_only"
+        },
+        {
+          "path": "previews/board-lpx/pcb-detail.jpg",
+          "width": 1280,
+          "height": 720,
+          "original_local_file": "previews/board-lpx/pcb-detail.png",
+          "processing": "resize_and_jpeg_encoding_only"
+        },
+        {
+          "path": "previews/board-lpx/rear-connector-detail.jpg",
+          "width": 1280,
+          "height": 720,
+          "original_local_file": "previews/board-lpx/rear-connector-detail.png",
+          "processing": "resize_and_jpeg_encoding_only"
+        },
+        {
+          "path": "previews/board-lpx/lpu-underside-detail.jpg",
+          "width": 1280,
+          "height": 720,
+          "original_local_file": "previews/board-lpx/lpu-underside-detail.png",
+          "processing": "resize_and_jpeg_encoding_only"
+        }
+      ],
       "article_ids": [
         "lpx"
       ],
@@ -3069,7 +3267,7 @@
       "group": "board",
       "representation": "owned_schematic",
       "geometry_basis": "schematic",
-      "components": 734,
+      "components": 842,
       "original_local_files": {
         "blend": "models/board-etl.blend",
         "lods": [
@@ -3085,7 +3283,29 @@
         "original_local_file": "previews/board-etl/hero.png",
         "processing": "resize_and_jpeg_encoding_only"
       },
-      "detail_previews": [],
+      "detail_previews": [
+        {
+          "path": "previews/board-etl/service-detail.jpg",
+          "width": 1280,
+          "height": 720,
+          "original_local_file": "previews/board-etl/service-detail.png",
+          "processing": "resize_and_jpeg_encoding_only"
+        },
+        {
+          "path": "previews/board-etl/pcb-detail.jpg",
+          "width": 1280,
+          "height": 720,
+          "original_local_file": "previews/board-etl/pcb-detail.png",
+          "processing": "resize_and_jpeg_encoding_only"
+        },
+        {
+          "path": "previews/board-etl/rear-connector-detail.jpg",
+          "width": 1280,
+          "height": 720,
+          "original_local_file": "previews/board-etl/rear-connector-detail.png",
+          "processing": "resize_and_jpeg_encoding_only"
+        }
+      ],
       "article_ids": [
         "lpx",
         "nvl72",
@@ -3135,7 +3355,7 @@
       "group": "board",
       "representation": "owned_schematic",
       "geometry_basis": "schematic",
-      "components": 7266,
+      "components": 7408,
       "original_local_files": {
         "blend": "models/board-sn6800.blend",
         "lods": [
@@ -3151,7 +3371,36 @@
         "original_local_file": "previews/board-sn6800/hero.png",
         "processing": "resize_and_jpeg_encoding_only"
       },
-      "detail_previews": [],
+      "detail_previews": [
+        {
+          "path": "previews/board-sn6800/service-detail.jpg",
+          "width": 1280,
+          "height": 720,
+          "original_local_file": "previews/board-sn6800/service-detail.png",
+          "processing": "resize_and_jpeg_encoding_only"
+        },
+        {
+          "path": "previews/board-sn6800/pcb-detail.jpg",
+          "width": 1280,
+          "height": 720,
+          "original_local_file": "previews/board-sn6800/pcb-detail.png",
+          "processing": "resize_and_jpeg_encoding_only"
+        },
+        {
+          "path": "previews/board-sn6800/rear-connector-detail.jpg",
+          "width": 1280,
+          "height": 720,
+          "original_local_file": "previews/board-sn6800/rear-connector-detail.png",
+          "processing": "resize_and_jpeg_encoding_only"
+        },
+        {
+          "path": "previews/board-sn6800/optical-detail.jpg",
+          "width": 1280,
+          "height": 720,
+          "original_local_file": "previews/board-sn6800/optical-detail.png",
+          "processing": "resize_and_jpeg_encoding_only"
+        }
+      ],
       "article_ids": [
         "lpx",
         "nvl72",
@@ -3221,7 +3470,7 @@
       "group": "board",
       "representation": "owned_schematic",
       "geometry_basis": "schematic",
-      "components": 2033,
+      "components": 2149,
       "original_local_files": {
         "blend": "models/board-sn6810.blend",
         "lods": [
@@ -3237,7 +3486,36 @@
         "original_local_file": "previews/board-sn6810/hero.png",
         "processing": "resize_and_jpeg_encoding_only"
       },
-      "detail_previews": [],
+      "detail_previews": [
+        {
+          "path": "previews/board-sn6810/service-detail.jpg",
+          "width": 1280,
+          "height": 720,
+          "original_local_file": "previews/board-sn6810/service-detail.png",
+          "processing": "resize_and_jpeg_encoding_only"
+        },
+        {
+          "path": "previews/board-sn6810/pcb-detail.jpg",
+          "width": 1280,
+          "height": 720,
+          "original_local_file": "previews/board-sn6810/pcb-detail.png",
+          "processing": "resize_and_jpeg_encoding_only"
+        },
+        {
+          "path": "previews/board-sn6810/rear-connector-detail.jpg",
+          "width": 1280,
+          "height": 720,
+          "original_local_file": "previews/board-sn6810/rear-connector-detail.png",
+          "processing": "resize_and_jpeg_encoding_only"
+        },
+        {
+          "path": "previews/board-sn6810/optical-detail.jpg",
+          "width": 1280,
+          "height": 720,
+          "original_local_file": "previews/board-sn6810/optical-detail.png",
+          "processing": "resize_and_jpeg_encoding_only"
+        }
+      ],
       "article_ids": [
         "lpx",
         "nvl72",
@@ -4557,7 +4835,7 @@
       "group": "mechanism",
       "representation": "owned_schematic",
       "geometry_basis": "schematic",
-      "components": 396,
+      "components": 547,
       "original_local_files": {
         "blend": "models/lpu-c2c-network.blend",
         "lods": [
@@ -6387,6 +6665,7 @@
         {
           "id": null,
           "title": "外观 / 装配 / 相机",
+          "description": "",
           "first_frame": 0,
           "last_frame": 359,
           "start_seconds": 0.0,
@@ -6585,6 +6864,7 @@
         {
           "id": null,
           "title": "外观 / 装配 / 相机",
+          "description": "",
           "first_frame": 0,
           "last_frame": 239,
           "start_seconds": 0.0,
@@ -6850,6 +7130,7 @@
         {
           "id": null,
           "title": "外观 / 装配 / 相机",
+          "description": "",
           "first_frame": 0,
           "last_frame": 239,
           "start_seconds": 0.0,
@@ -6980,11 +7261,39 @@
       ],
       "stages": [
         {
-          "id": null,
-          "title": "外观 / 装配 / 相机",
+          "id": "official-2u16",
+          "title": "官网当前配置",
+          "description": "16个2U托盘，每托盘16颗LPU；整柜256颗。官方图仍标为初步设计。",
           "first_frame": 0,
-          "last_frame": 239,
+          "last_frame": 59,
           "start_seconds": 0.0,
+          "end_seconds_exclusive": 2.0
+        },
+        {
+          "id": "upper-eight-and-hosts",
+          "title": "基板上方8颗LPU",
+          "description": "上侧8颗LPU、两处FEL＋DRAM，前左Host CPU、前右BlueField-4；细部为自建复建。",
+          "first_frame": 60,
+          "last_frame": 119,
+          "start_seconds": 2.0,
+          "end_seconds_exclusive": 4.0
+        },
+        {
+          "id": "underside-eight",
+          "title": "基板下方另外8颗LPU",
+          "description": "此段隔离PCB并从底面观看：另外8颗LPU位于基板下方。底面XY、固定件与布线未公开。",
+          "first_frame": 120,
+          "last_frame": 179,
+          "start_seconds": 4.0,
+          "end_seconds_exclusive": 6.0
+        },
+        {
+          "id": "restore-assembled-2u16",
+          "title": "复位到2U托盘",
+          "description": "上下各8颗，共16颗LPU。2个Ethernet口与64条逻辑C2C光链路；孔组不等于链路数量。",
+          "first_frame": 180,
+          "last_frame": 239,
+          "start_seconds": 6.0,
           "end_seconds_exclusive": 8.0
         }
       ],
@@ -7112,6 +7421,7 @@
         {
           "id": null,
           "title": "外观 / 装配 / 相机",
+          "description": "",
           "first_frame": 0,
           "last_frame": 239,
           "start_seconds": 0.0,
@@ -7177,6 +7487,7 @@
         {
           "id": null,
           "title": "外观 / 装配 / 相机",
+          "description": "",
           "first_frame": 0,
           "last_frame": 239,
           "start_seconds": 0.0,
@@ -7242,6 +7553,7 @@
         {
           "id": null,
           "title": "外观 / 装配 / 相机",
+          "description": "",
           "first_frame": 0,
           "last_frame": 239,
           "start_seconds": 0.0,
@@ -7940,6 +8252,7 @@
         {
           "id": null,
           "title": "外观 / 装配 / 相机",
+          "description": "",
           "first_frame": 0,
           "last_frame": 479,
           "start_seconds": 0.0,
@@ -9479,6 +9792,7 @@
         {
           "id": "step-0",
           "title": "编译时安排",
+          "description": "编译器安排计算、搬运与数据到达时刻。",
           "first_frame": 0,
           "last_frame": 59,
           "start_seconds": 0.0,
@@ -9487,6 +9801,7 @@
         {
           "id": "step-1",
           "title": "SRAM供数",
+          "description": "片上MEM向计算引擎提供预定数据。",
           "first_frame": 60,
           "last_frame": 119,
           "start_seconds": 2.0,
@@ -9495,6 +9810,7 @@
         {
           "id": "step-2",
           "title": "C2C与同步",
+          "description": "芯片间传递数据，接收方按时序消费；FEL扩展外部链路。",
           "first_frame": 120,
           "last_frame": 179,
           "start_seconds": 4.0,
@@ -9503,6 +9819,7 @@
         {
           "id": "step-3",
           "title": "电力预测",
+          "description": "PEP利用可预测执行节奏辅助供电管理，不能等同所有负载下没有电压跌落。",
           "first_frame": 180,
           "last_frame": 239,
           "start_seconds": 6.0,
@@ -9511,6 +9828,7 @@
         {
           "id": "timing-detail-aggregate-local",
           "title": "8C是容量求和，不等于单核心本地域",
+          "description": "八颗芯片的容量可相加，但数据分布、传输带宽与延迟仍然存在；聚合容量不等于一个核心的本地容量。",
           "first_frame": 240,
           "last_frame": 299,
           "start_seconds": 8.0,
@@ -9519,6 +9837,7 @@
         {
           "id": "timing-detail-ecc-error-check",
           "title": "检查码字中的一位错误",
+          "description": "8位SECDED教材例子用syndrome与整体奇偶区分错误情况，不套用为Groq芯片真实ECC码。",
           "first_frame": 300,
           "last_frame": 359,
           "start_seconds": 10.0,
@@ -9527,6 +9846,7 @@
         {
           "id": "timing-detail-ecc-correct-report",
           "title": "更正一位错误，并记录事件",
+          "description": "示例第五位被更正，随后仍上报事件；两个错误会检测并报告，不能套用单比特自动更正。",
           "first_frame": 360,
           "last_frame": 419,
           "start_seconds": 12.0,
@@ -11540,9 +11860,31 @@
           "shot_id": "10-tray-lpx",
           "stages": [
             {
-              "id": null,
-              "title": "外观 / 装配 / 相机",
+              "id": "official-2u16",
+              "title": "官网当前配置",
+              "description": "16个2U托盘，每托盘16颗LPU；整柜256颗。官方图仍标为初步设计。",
               "first_frame": 0,
+              "last_frame": 59
+            },
+            {
+              "id": "upper-eight-and-hosts",
+              "title": "基板上方8颗LPU",
+              "description": "上侧8颗LPU、两处FEL＋DRAM，前左Host CPU、前右BlueField-4；细部为自建复建。",
+              "first_frame": 60,
+              "last_frame": 119
+            },
+            {
+              "id": "underside-eight",
+              "title": "基板下方另外8颗LPU",
+              "description": "此段隔离PCB并从底面观看：另外8颗LPU位于基板下方。底面XY、固定件与布线未公开。",
+              "first_frame": 120,
+              "last_frame": 179
+            },
+            {
+              "id": "restore-assembled-2u16",
+              "title": "复位到2U托盘",
+              "description": "上下各8颗，共16颗LPU。2个Ethernet口与64条逻辑C2C光链路；孔组不等于链路数量。",
+              "first_frame": 180,
               "last_frame": 239
             }
           ]
@@ -14265,9 +14607,31 @@
           "shot_id": "10-tray-lpx",
           "stages": [
             {
-              "id": null,
-              "title": "外观 / 装配 / 相机",
+              "id": "official-2u16",
+              "title": "官网当前配置",
+              "description": "16个2U托盘，每托盘16颗LPU；整柜256颗。官方图仍标为初步设计。",
               "first_frame": 0,
+              "last_frame": 59
+            },
+            {
+              "id": "upper-eight-and-hosts",
+              "title": "基板上方8颗LPU",
+              "description": "上侧8颗LPU、两处FEL＋DRAM，前左Host CPU、前右BlueField-4；细部为自建复建。",
+              "first_frame": 60,
+              "last_frame": 119
+            },
+            {
+              "id": "underside-eight",
+              "title": "基板下方另外8颗LPU",
+              "description": "此段隔离PCB并从底面观看：另外8颗LPU位于基板下方。底面XY、固定件与布线未公开。",
+              "first_frame": 120,
+              "last_frame": 179
+            },
+            {
+              "id": "restore-assembled-2u16",
+              "title": "复位到2U托盘",
+              "description": "上下各8颗，共16颗LPU。2个Ethernet口与64条逻辑C2C光链路；孔组不等于链路数量。",
+              "first_frame": 180,
               "last_frame": 239
             }
           ]
@@ -14329,9 +14693,31 @@
           "shot_id": "10-tray-lpx",
           "stages": [
             {
-              "id": null,
-              "title": "外观 / 装配 / 相机",
+              "id": "official-2u16",
+              "title": "官网当前配置",
+              "description": "16个2U托盘，每托盘16颗LPU；整柜256颗。官方图仍标为初步设计。",
               "first_frame": 0,
+              "last_frame": 59
+            },
+            {
+              "id": "upper-eight-and-hosts",
+              "title": "基板上方8颗LPU",
+              "description": "上侧8颗LPU、两处FEL＋DRAM，前左Host CPU、前右BlueField-4；细部为自建复建。",
+              "first_frame": 60,
+              "last_frame": 119
+            },
+            {
+              "id": "underside-eight",
+              "title": "基板下方另外8颗LPU",
+              "description": "此段隔离PCB并从底面观看：另外8颗LPU位于基板下方。底面XY、固定件与布线未公开。",
+              "first_frame": 120,
+              "last_frame": 179
+            },
+            {
+              "id": "restore-assembled-2u16",
+              "title": "复位到2U托盘",
+              "description": "上下各8颗，共16颗LPU。2个Ethernet口与64条逻辑C2C光链路；孔组不等于链路数量。",
+              "first_frame": 180,
               "last_frame": 239
             }
           ]
@@ -19252,6 +19638,40 @@
     "55前段近俯视不能单独辨认chip→TIM→铜底纵向接触；使用功能剖面静图补充。",
     "56的线圈会局部遮挡光点；57波形是归一化示例，不能当成量产实测曲线。",
     "无独立正式SOCAMM2电影；SOCAMM2可用资产socamm2及07/09板级镜头与压接近景讲解。",
-    "全部57组源时间轴已实际采样；114片完整软件解码通过。完整连续视觉播放和用户审美批准未获得。"
-  ]
+    "全部57组源时间轴已实际采样；114片完整软件解码通过。完整连续视觉播放和用户审美批准未获得。",
+    "Groq LPX已按用户要求采用2026-10-10核查的NVIDIA LPX专文与Figure 2：16×2U tray、每tray16LPU、两个FEL+DRAM模块，整柜256LPU。POD总览页仍有32×8的不同数字；旧模型保留为历史版本，当前模型采用专文配置。"
+  ],
+  "latest_refinement": {
+    "date": "2026-10-10",
+    "asset_ids": [
+      "tray-nvlink",
+      "tray-lpx",
+      "tray-etl",
+      "switch-sn6800",
+      "switch-sn6810",
+      "board-nvlink",
+      "board-lpx",
+      "board-etl",
+      "board-sn6800",
+      "board-sn6810",
+      "rack-lpx",
+      "room",
+      "scene-pod-to-die",
+      "lpu-c2c-network"
+    ],
+    "shot_ids": [
+      "01-pod-tour",
+      "04-rack-lpx",
+      "08-tray-nvlink",
+      "10-tray-lpx",
+      "12-tray-etl",
+      "13-switch-sn6800",
+      "14-switch-sn6810",
+      "24-pod-to-die",
+      "38-lpu-c2c-network"
+    ],
+    "summary_url": "https://raw.githubusercontent.com/migodam/rubin-video-asset-catalog/main/TRAY_REFINEMENT.md",
+    "local_patch_filename": "Rubin-POD-tray-refinement-20261010-owned-patch.zip",
+    "original_complete_archive_is_preserved_baseline": true
+  }
 }

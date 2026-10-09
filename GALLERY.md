@@ -68,6 +68,8 @@ NVLink 6 Switch Tray
 
 ![NVLink 6 Switch Tray](previews/tray-nvlink/hero.jpg)
 
+近景：[service-detail](previews/tray-nvlink/service-detail.jpg) · [pcb-detail](previews/tray-nvlink/pcb-detail.jpg) · [thermal-detail](previews/tray-nvlink/thermal-detail.jpg) · [rear-connector-detail](previews/tray-nvlink/rear-connector-detail.jpg)
+
 ### tray-vera
 
 Vera CPU Tray
@@ -80,7 +82,7 @@ Groq 3 LPX Tray
 
 ![Groq 3 LPX Tray](previews/tray-lpx/hero.jpg)
 
-近景：[assembled-detail](previews/tray-lpx/assembled-detail.jpg) · [service-detail](previews/tray-lpx/service-detail.jpg) · [pcb-detail](previews/tray-lpx/pcb-detail.jpg)
+近景：[assembled-detail](previews/tray-lpx/assembled-detail.jpg) · [service-detail](previews/tray-lpx/service-detail.jpg) · [pcb-detail](previews/tray-lpx/pcb-detail.jpg) · [thermal-detail](previews/tray-lpx/thermal-detail.jpg) · [rear-connector-detail](previews/tray-lpx/rear-connector-detail.jpg) · [lpu-underside-detail](previews/tray-lpx/lpu-underside-detail.jpg)
 
 ### tray-stx
 
@@ -94,17 +96,23 @@ MGX Ethernet Tray
 
 ![MGX Ethernet Tray](previews/tray-etl/hero.jpg)
 
+近景：[service-detail](previews/tray-etl/service-detail.jpg) · [pcb-detail](previews/tray-etl/pcb-detail.jpg) · [thermal-detail](previews/tray-etl/thermal-detail.jpg) · [rear-connector-detail](previews/tray-etl/rear-connector-detail.jpg)
+
 ### switch-sn6800
 
 Spectrum-6 SN6800
 
 ![Spectrum-6 SN6800](previews/switch-sn6800/hero.jpg)
 
+近景：[service-detail](previews/switch-sn6800/service-detail.jpg) · [pcb-detail](previews/switch-sn6800/pcb-detail.jpg) · [thermal-detail](previews/switch-sn6800/thermal-detail.jpg) · [rear-connector-detail](previews/switch-sn6800/rear-connector-detail.jpg)
+
 ### switch-sn6810
 
 Spectrum-6 SN6810
 
 ![Spectrum-6 SN6810](previews/switch-sn6810/hero.jpg)
+
+近景：[service-detail](previews/switch-sn6810/service-detail.jpg) · [pcb-detail](previews/switch-sn6810/pcb-detail.jpg) · [thermal-detail](previews/switch-sn6810/thermal-detail.jpg) · [rear-connector-detail](previews/switch-sn6810/rear-connector-detail.jpg)
 
 ## 芯片与封装
 
@@ -202,6 +210,8 @@ NVLink Switch PCB
 
 ![NVLink Switch PCB](previews/board-nvlink/hero.jpg)
 
+近景：[service-detail](previews/board-nvlink/service-detail.jpg) · [pcb-detail](previews/board-nvlink/pcb-detail.jpg) · [rear-connector-detail](previews/board-nvlink/rear-connector-detail.jpg)
+
 ### board-vera
 
 Vera Compute PCB
@@ -213,6 +223,8 @@ Vera Compute PCB
 LPX Compute PCB
 
 ![LPX Compute PCB](previews/board-lpx/hero.jpg)
+
+近景：[service-detail](previews/board-lpx/service-detail.jpg) · [pcb-detail](previews/board-lpx/pcb-detail.jpg) · [rear-connector-detail](previews/board-lpx/rear-connector-detail.jpg) · [lpu-underside-detail](previews/board-lpx/lpu-underside-detail.jpg)
 
 ### board-stx
 
@@ -226,17 +238,23 @@ MGX Ethernet PCB
 
 ![MGX Ethernet PCB](previews/board-etl/hero.jpg)
 
+近景：[service-detail](previews/board-etl/service-detail.jpg) · [pcb-detail](previews/board-etl/pcb-detail.jpg) · [rear-connector-detail](previews/board-etl/rear-connector-detail.jpg)
+
 ### board-sn6800
 
 SN6800 CPO PCB
 
 ![SN6800 CPO PCB](previews/board-sn6800/hero.jpg)
 
+近景：[service-detail](previews/board-sn6800/service-detail.jpg) · [pcb-detail](previews/board-sn6800/pcb-detail.jpg) · [rear-connector-detail](previews/board-sn6800/rear-connector-detail.jpg) · [optical-detail](previews/board-sn6800/optical-detail.jpg)
+
 ### board-sn6810
 
 SN6810 CPO PCB
 
 ![SN6810 CPO PCB](previews/board-sn6810/hero.jpg)
+
+近景：[service-detail](previews/board-sn6810/service-detail.jpg) · [pcb-detail](previews/board-sn6810/pcb-detail.jpg) · [rear-connector-detail](previews/board-sn6810/rear-connector-detail.jpg) · [optical-detail](previews/board-sn6810/optical-detail.jpg)
 
 ## 放大结构与工作原理
 

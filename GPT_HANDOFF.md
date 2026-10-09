@@ -2,13 +2,15 @@
 
 目的：用已经完成的模型、静图和电影规划中文科普长视频。素材范围覆盖Vera Rubin NVL72、Vera CPU Rack、Groq 3 LPX、BlueField-4 STX/CMX、Spectrum-6 SPX/CPO五篇。
 
-资料库：https://github.com/migodam/rubin-video-asset-catalog。更新时间：2026-10-10T02:56:18+08:00。
+资料库：https://github.com/migodam/rubin-video-asset-catalog。更新时间：2026-10-10T06:20:43+08:00。
+五款tray已于2026-10-10细化：[更新内容与对照](https://raw.githubusercontent.com/migodam/rubin-video-asset-catalog/main/TRAY_REFINEMENT.md)。最新本地细化补丁包覆盖14项模型与相关9组影片（纯画面和标注两版，共18条MP4）；原完整包保留为基线。
+
 
 ## 已有素材
 
 - 67项自建模型：2个机房/跨尺度总装、5类机架、8类模块、8种PCB、8个芯片封装资产、3个存储/光学资产、33项原理模型。
 - 201个三档主模型GLB，8个独立裸片示意GLB，以及分层Blender文件。
-- 777张原生4K静图，包括六视角、接口、SOCAMM2压接、液冷、die逻辑分区、光学近景与6张Cycles关键静帧。
+- 779张原生4K静图，包括六视角、接口、SOCAMM2压接、液冷、die逻辑分区、光学近景与6张Cycles关键静帧。
 - 57组电影：114条3840×2160、30fps静默MP4，clean/annotated两版；合计642秒不同源镜头，重复两版不计成1284秒新内容。
 - 78个独立讲解点、17条按问题选材的导航路线，以及一手技术来源。
 
@@ -36,6 +38,7 @@
 - 56的线圈会局部遮挡光点；57波形是归一化示例，不能当成量产实测曲线。
 - 无独立正式SOCAMM2电影；SOCAMM2可用资产socamm2及07/09板级镜头与压接近景讲解。
 - 全部57组源时间轴已实际采样；114片完整软件解码通过。完整连续视觉播放和用户审美批准未获得。
+- Groq LPX已按用户要求采用2026-10-10核查的NVIDIA LPX专文与Figure 2：16×2U tray、每tray16LPU、两个FEL+DRAM模块，整柜256LPU。POD总览页仍有32×8的不同数字；旧模型保留为历史版本，当前模型采用专文配置。
 
 ## 发给GPT的策划要求
 
