@@ -1,0 +1,10 @@
+{
+  "purpose": "Public documentation and owned previews for GPT script planning",
+  "target": "https://github.com/migodam/rubin-video-asset-catalog",
+  "requested_at_client_date": "2026-10-10",
+  "user_request": "给我总结一下现有的素材，然后最好可以整理publish一下。我好拿给 GPT 网页版，让它根据这些素材来规划我的台本。",
+  "raw_original_models_or_movies_included": false,
+  "third_party_reference_pixels_included": false,
+  "credentials_private_paths_or_chat_transcripts_included": false,
+  "full_episode_publication_or_aesthetic_approval_claimed": false
+}
